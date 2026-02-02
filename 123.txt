@@ -1,0 +1,1 @@
+python main.py --files test_data/economic1.csv --report average-gdp
