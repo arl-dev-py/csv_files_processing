@@ -1,4 +1,16 @@
+# CSV Files Processing
+
+Обработка CSV файлов с генерацией отчетов.
+
 ![img.png](img.png)
-Для запуска скрипта: python main.py --files test_data/economic1.csv --report average-gdp 
-Для запуска тестов: pytest --cov=.
-Новый репорт = новый .py в reports
+
+
+## Запуск
+
+Обработка файлов:
+python main.py --files test_data/economic1.csv --report average-gdp
+
+Тесты:
+pytest --cov=.
+
+Новый отчет: создайте .py файл в reports/
